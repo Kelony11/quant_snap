@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Market Dashboard{% endblock %}
+
+{% block content %}
+<h1>Market Dashboard</h1>
+
+<h2>Selected Assets</h2>
+<ul>
+  <li>ETF: <b>SPY</b></li>
+  <li>Stock: <b>AAPL</b></li>
+</ul>
+
+<h2>Key Results (Precomputed)</h2>
+
+<h3>Strategy Metrics (Part 3)</h3>
+<pre>{{ metrics | tojson(indent=2) }}</pre>
+
+<h3>Charts</h3>
+
+<h4>Price History</h4>
+<img src="/static/{{ charts.price_history }}" width="900" alt="Price History">
+
+<h4>Rolling Volatility (20-day, daily)</h4>
+<img src="/static/{{ charts.volatility }}" width="900" alt="Volatility">
+
+<h4>Strategy Equity Curve</h4>
+<img src="/static/{{ charts.strategy_equity }}" width="900" alt="Strategy Equity">
+
+{% endblock %}

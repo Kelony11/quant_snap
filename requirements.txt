@@ -1,0 +1,18 @@
+
+# ECE 568 Homework Requirements
+
+# Data & Analysis
+pandas
+numpy
+yfinance
+matplotlib
+
+# Web Application
+Django>=4.2
+flask>=3.1.2
+
+# Optional (bonus / extensions)
+scipy
+pytest
+
+

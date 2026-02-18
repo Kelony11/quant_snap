@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Data{% endblock %}
+
+{% block content %}
+  <h1>Data</h1>
+  <p>Preview of the locally saved datasets (first 10 rows).</p>
+
+  <h2>AAPL.csv</h2>
+  <pre>{{ aapl | tojson(indent=2) }}</pre>
+
+  <h2>SPY.csv</h2>
+  <pre>{{ spy | tojson(indent=2) }}</pre>
+{% endblock %}

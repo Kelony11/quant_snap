@@ -1,0 +1,16 @@
+{
+  "strategy": {
+    "name": "MOVING AVERAGE CROSSOVER: (20 vs 50) long-only",
+    "ticker": "AAPL",
+    "start_date": "2020-01-03",
+    "end_date": "2023-12-29",
+    "total_return": 0.6907534727953815,
+    "daily_volatility": 0.013350605245856326,
+    "percent_time_in_market": 0.5755467196819085
+  },
+  "buy_and_hold": {
+    "ticker": "AAPL",
+    "total_return": 1.6318946366667748,
+    "daily_volatility": 0.021145923542335042
+  }
+}
