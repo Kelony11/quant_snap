@@ -1,4 +1,4 @@
-# QuantSnap
+# QuantSnap 📊🌐 
 
 A `Python` toolkit that downloads historical market data from `Yahoo Finance`, generates basic market analytics, 
 simple strategy backtest, and serves **precomputed** results in a `Flask` dashboard.
